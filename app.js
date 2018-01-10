@@ -12,7 +12,7 @@ GAME RULES:
 var scores = [0,0];
 var roundScore = 0;
 var activePlayer = 0;
-var dice = Math.floor(Math.random() * 6) + 1;
+// var dice = Math.floor(Math.random() * 6) + 1;
 
 // Query the ID to get the dice value
 document.querySelector("#current-" + activePlayer).textContent = dice; 
@@ -24,4 +24,11 @@ console.log(x);
 document.querySelector(".dice").style.display = "none";
 
 
-document.querySelector(".btn-roll").addEventListener('click');
+document.querySelector(".btn-roll").addEventListener('click', function() {
+    // Random number
+    dice = Math.floor(Math.random() * 6) + 1;
+    // Display result
+
+} ).
+
+
