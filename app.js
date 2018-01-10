@@ -22,3 +22,6 @@ var x = document.querySelector("#score-0").textContent;
 console.log(x);
 
 document.querySelector(".dice").style.display = "none";
+
+
+document.querySelector(".btn-roll").addEventListener('click');
